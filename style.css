@@ -23,33 +23,32 @@ header{
     font-weight: 600;
     display: flex;
     align-items: center;
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(248, 248, 248);
     justify-content: center;
-    border-bottom: 1px solid rgba(19, 19, 16, 0.055);
+    border-bottom: 1px solid rgba(19, 19, 16, 0.062);
 }
 header nav{
     display: flex;
 }
 header nav a{
     font-family: 'Raleway', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     padding: 20px;
     text-decoration: none;
     text-transform: none;
-    color: rgba(24, 24, 24, 0.459);
+    color: rgba(24, 24, 24, 0.685);
     cursor: pointer;
     transition: .5s;
 }
 header nav a:hover{
     transform: translateY(-2px);
-    color: rgb(43, 40, 40);
+    color: rgb(87, 5, 69);
 }
 
 /* Main (& Relacionados) */
 
 main{
-    background: rgb(209,209,209);
-    background: linear-gradient(55deg, rgba(209,209,209,1) 0%, rgba(238,239,240,1) 100%);
+    background-color: rgb(250, 250, 250);
     width: 100%;
     height: 70vh;
     display: flex;
@@ -122,18 +121,127 @@ main .memoji img{
 
 #experience{
     width: 100%;
-    background-color: rgb(250, 250, 250);
+    height: 80vh;
+    background-color: rgb(255, 243, 255);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 #experience h1{
+    margin-top: -20px;
     font-size: 2rem;
     color: rgb(132, 23, 160);
     padding: 30px;
+    gap: 20px;
+}
+#experience .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#experience .buttons #button-01 img, #experience .buttons #button-02 img, #experience .buttons #button-03 img{
+    width: 30%;
+    margin: 30px;
 }
 
-main #me, main img, #introduction img, #introduction .text p,  #introduction .text h1{
+/* Section que é manipulada pelo JS */
+
+#js-experiences{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#js-experiences #principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    visibility: hidden;
+}
+#js-experiences #principal h1{
+    max-width: 70%;
+   font-size: 2em;
+}
+#js-experiences img{
+    margin-top: 20px;
+    width: 300px;
+}
+#js-experiences #paragrapher-info{
+    max-width: 40%;
+    color: rgb(250, 250, 250);
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#experience .buttons #button-01 button, #experience .buttons #button-02 button, #experience .buttons #button-03 button{
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    border-radius: 30px;
+    border: 1px solid rgba(104, 36, 117, 0.315);
+    transition: .5s;
+    background-color: rgb(255, 255, 255);
+}
+#experience .buttons #button-01 button:hover, #experience .buttons #button-02 button:hover, #experience .buttons #button-03 button:hover{
+    background-color: rgb(34, 34, 34);
+    border: 1px solid rgba(159, 11, 189, 0.315);
+    cursor: pointer;
+    width: 110px;
+    height: 110px;
+}
+
+/* Parte do Scroll Reveal */
+
+main #me, main img, #introduction img, #introduction .text p,  #introduction .text h1, #experience h1, #experience span, .buttons #button-01, #button-02, #button-03{
     visibility: hidden;
 }
