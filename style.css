@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    user-select: none;
+    /* animation: fadeIn 2s; */
+}
+body{
+    width: 100%;
+    background-color: rgb(18, 17, 19);
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Header */
+
+header{
+    width: 100%;
+    height: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    background-color: rgb(231, 231, 231);
+    justify-content: center;
+    border-bottom: 1px solid rgba(19, 19, 16, 0.055);
+}
+header nav{
+    display: flex;
+}
+header nav a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: none;
+    color: rgba(24, 24, 24, 0.459);
+    cursor: pointer;
+    transition: .5s;
+}
+header nav a:hover{
+    transform: translateY(-2px);
+    color: rgb(43, 40, 40);
+}
+
+/* Main (& Relacionados) */
+
+main{
+    background: rgb(209,209,209);
+    background: linear-gradient(55deg, rgba(209,209,209,1) 0%, rgba(238,239,240,1) 100%);
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main #me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+main #me h1{
+    color: rgb(26, 26, 26);
+    font-size: 3em;
+    font-weight: 600;
+    max-width: 80%;
+    text-align: center;
+    font-family: 'Raleway', monospace;
+    font-weight: 700;
+}
+main #me #english{
+    color: rgb(26, 26, 26);
+    margin-top: 10px;
+    font-weight: 300;
+}
+main #me span{
+    color: rgb(132, 23, 160)
+}
+main .memoji img{
+    width: 80%;
+}
+
+/* Section - Sobre mim (& Relacionados) */
+
+#introduction{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(235, 235, 235);
+}
+#introduction img{
+    width: 300px;
+    margin-left: 50%;
+}
+#introduction .text{
+    margin-left: 10%;
+}
+#introduction .text h1{
+    font-family: monospace;
+    color: rgb(250, 250, 250);
+    font-size: 2em;
+    margin: 20px;
+    padding: 20px;
+}
+#introduction .text p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: rgb(250, 250, 250);
+    font-size: 1.3em;
+    max-width: 80%;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Section - Experiencias (& Relacionados) */
+
+
+#experience{
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#experience h1{
+    font-size: 2rem;
+    color: rgb(132, 23, 160);
+    padding: 30px;
+}
+
+main #me, main img, #introduction img, #introduction .text p,  #introduction .text h1{
+    visibility: hidden;
+}
