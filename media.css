@@ -1,0 +1,41 @@
+@media screen and (max-width: 520px){
+
+main{
+    flex-direction: column;
+}
+main .memoji img{
+    margin-left: 6%;
+}
+#introduction{
+    flex-direction: column;
+}
+#introduction .memoji .to-scroll{
+    width: 30%;
+}
+#introduction img{
+    width: 300px;
+    margin-left: 35%;
+}
+#experiences{
+    flex-direction: column;
+}
+#js-experiences{
+    flex-direction: column;
+}
+#js-experiences #principal h1{
+    max-width: 90%;
+   font-size: 2em;
+}
+#js-experiences #paragrapher-info{
+    max-width: 80%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+}

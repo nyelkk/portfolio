@@ -132,18 +132,28 @@ main .memoji img{
     margin-top: -20px;
     font-size: 2rem;
     color: rgb(132, 23, 160);
-    padding: 30px;
-    gap: 20px;
 }
 #experience .buttons{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    
 }
 #experience .buttons #button-01 img, #experience .buttons #button-02 img, #experience .buttons #button-03 img{
-    width: 30%;
-    margin: 30px;
+    width: 80px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 20px;
+    border: 1px solid rgba(115, 5, 143, 0.274);
+    transition: .5s;
+}
+#experience .buttons #button-01 img:hover, #experience .buttons #button-02 img:hover, #experience .buttons #button-03 img:hover{
+    background-color: rgb(34, 34, 34);
+    border: 1px solid rgba(159, 11, 189, 0.315);
+    cursor: pointer;
+    transform: scale(110%);
 }
 
 /* Section que é manipulada pelo JS */
@@ -223,22 +233,7 @@ main .memoji img{
 
 
 
-#experience .buttons #button-01 button, #experience .buttons #button-02 button, #experience .buttons #button-03 button{
-    width: 100px;
-    height: 100px;
-    margin: 50px;
-    border-radius: 30px;
-    border: 1px solid rgba(104, 36, 117, 0.315);
-    transition: .5s;
-    background-color: rgb(255, 255, 255);
-}
-#experience .buttons #button-01 button:hover, #experience .buttons #button-02 button:hover, #experience .buttons #button-03 button:hover{
-    background-color: rgb(34, 34, 34);
-    border: 1px solid rgba(159, 11, 189, 0.315);
-    cursor: pointer;
-    width: 110px;
-    height: 110px;
-}
+
 
 /* Parte do Scroll Reveal */
 

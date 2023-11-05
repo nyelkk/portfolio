@@ -12,7 +12,7 @@ function scholl(){
 }
 function dev(){
     title.innerText = "Desen. Web"
-    paragrapher.innerText = "A minha história com o desenvolvimento web começou há menos de cinco meses (considerando que escrevi isso em 05/10/2023). Desde o início até agora, sinto que evoluí bastante, o que se deve ao interesse que desenvolvi pela área. Sei que tenho potencial e pretendo aprimorar ainda mais as minhas habilidades, e este portfólio serve para comprovar isso."
+    paragrapher.innerText = "A minha história com o desenvolvimento web começou há menos de cinco meses (considerando que escrevi isso em 05/10/2023). Desde o início até agora, sinto que evoluí bastante, o que se deve ao interesse que desenvolvi pela área. Sei que tenho potencial e pretendo aprimorar ainda mais as minhas habilidades, e esse portfólio serve para comprovar isso."
     image.src = "imgs/dev.png"
 }
 function design(){
