@@ -32,7 +32,8 @@ header nav{
 }
 header nav a{
     font-family: 'Raleway', sans-serif;
-    font-weight: 600;
+    font-weight: 60%;
+    font-size: 80%;
     padding: 20px;
     text-decoration: none;
     text-transform: none;
@@ -93,27 +94,28 @@ main .memoji img{
     color: rgb(235, 235, 235);
 }
 #introduction img{
-    width: 300px;
-    margin-left: 50%;
+    margin-left: 80%;
+    width: 70%;
 }
 #introduction .text{
-    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
 }
 #introduction .text h1{
     font-family: monospace;
     color: rgb(250, 250, 250);
     font-size: 2em;
-    margin: 20px;
     padding: 20px;
 }
 #introduction .text p{
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     color: rgb(250, 250, 250);
-    font-size: 1.3em;
-    max-width: 80%;
-    margin: 20px;
-    padding: 20px;
+    font-size: 1em;
+    max-width: 50%;
+    text-align: center;
 }
 
 /* Section - Experiencias (& Relacionados) */
@@ -121,14 +123,17 @@ main .memoji img{
 
 #experience{
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     background-color: rgb(255, 243, 255);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    z-index: -1;
 }
 #experience h1{
+    margin: 20px;
+    text-align: center;
     margin-top: -20px;
     font-size: 2rem;
     color: rgb(132, 23, 160);
@@ -137,13 +142,18 @@ main .memoji img{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    
+    text-align: center;   
+}
+.interaction{
+    font-size: 90%;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    margin-top: 5%;
 }
 #experience .buttons #button-01 img, #experience .buttons #button-02 img, #experience .buttons #button-03 img{
-    width: 80px;
+    width: 65px;
     margin: 20px;
-    padding: 20px;
+    padding: 10px;
     background-color: rgb(240, 240, 240);
     border-radius: 20px;
     border: 1px solid rgba(115, 5, 143, 0.274);

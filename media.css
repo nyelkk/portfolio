@@ -1,33 +1,61 @@
 @media screen and (max-width: 520px){
-
+*{
+    box-sizing: border-box;
+}
+header nav{
+    display: none;
+}
 main{
     flex-direction: column;
 }
+main h1{
+    margin-top: 30px;
+}
 main .memoji img{
-    margin-left: 6%;
+    margin-left: 10%;
+    width: 70%;
 }
 #introduction{
+    height: 60vh;
     flex-direction: column;
 }
-#introduction .memoji .to-scroll{
-    width: 30%;
+#introduction .text{
+    width: 90%;
+    font-size: .8em;
+    text-align: center;
 }
 #introduction img{
-    width: 300px;
-    margin-left: 35%;
+    width: 40%;
+    margin: 10% 0% 0% 31%;
+}
+#experience .interaction p{
+    margin-top: 10%;
+    font-size: 80%;
+    text-align: center;
 }
 #experiences{
     flex-direction: column;
 }
+#experience .buttons #button-01 img, #experience .buttons #button-02 img, #experience .buttons #button-03 img{
+    width: 55px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
 #js-experiences{
     flex-direction: column;
 }
+#js-experiences img{
+    width: 70%;
+}
 #js-experiences #principal h1{
     max-width: 90%;
+    text-align: center;
    font-size: 2em;
 }
 #js-experiences #paragrapher-info{
     max-width: 80%;
+    font-size: 90%;
     text-align: center;
 }
 
