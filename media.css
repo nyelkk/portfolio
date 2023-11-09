@@ -6,6 +6,7 @@ header nav{
     display: none;
 }
 main{
+    height: 50vh;
     flex-direction: column;
 }
 main h1{
@@ -24,6 +25,11 @@ main .memoji img{
     font-size: .8em;
     text-align: center;
 }
+#introduction .text p{
+    font-size: 1.2em;
+    max-width: 80%;
+    text-align: center;
+}
 #introduction img{
     width: 40%;
     margin: 10% 0% 0% 31%;
@@ -36,8 +42,15 @@ main .memoji img{
 #experiences{
     flex-direction: column;
 }
+#experience .buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;   
+}
 #experience .buttons #button-01 img, #experience .buttons #button-02 img, #experience .buttons #button-03 img{
-    width: 55px;
+    width: 65px;
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
