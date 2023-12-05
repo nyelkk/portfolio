@@ -12,7 +12,7 @@
 <em>Projeto em andamento.
 
 - `Navegação por categorias pelo Header.`
-- `A categoria "Minhas Experiências muda de acordo com o que voce clica`
+- `A categoria "Minhas Experiências" muda de acordo com o que voce clica`
 
 ## 🚀 Informações sobre responsividade:
 
