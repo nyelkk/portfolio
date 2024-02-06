@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: 'Michroma', sans-serif;
+}
+body{
+    background-color: rgba(1, 1, 1, 1);
+}
+main #first-section{
+    width: 100%;
+    height: 100vh;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+main #first-section .main-image img{
+    width: 30vw;
+}
+main #first-section .other-side .text p{
+    font-size: 3rem;
+    color: rgba(248, 248, 248, 0.774);
+    text-shadow: 0 0 5px #ffffff7c, 0 0 10px #ffffff4d;
+}
+main #first-section .other-side .buttons .button{
+    margin: 2% 0 2% 0;
+}
+main #first-section .other-side .buttons .button img{
+    margin-left: 1%;
+}
+main #first-section .other-side .buttons .button a{
+    text-decoration: none;
+    color: rgba(248, 248, 248, 0.774);
+    border: 1px solid rgb(248, 248, 248);
+    border-radius: 10px;
+    width: 70%;
+    padding: 15px;
+    display: block;
+}
+main #first-section .other-side .paragrapher p{
+    max-width: 60%;
+    font-size: .6em;
+    opacity: .5;
+}
