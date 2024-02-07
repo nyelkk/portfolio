@@ -27,20 +27,18 @@ header {
     align-items: center;
     z-index: 1;
 }
-
-nav ul {
+header nav ul {
     list-style-type: none;
     display: flex;
 }
-
-nav ul li {
+header nav ul li {
     margin: 1vh;
 }
-nav ul li a {
+header nav ul li a {
     font-size: .7vw;
     text-decoration: none; 
 }
-  
+
 main #first-section{
     width: 100%;
     height: 90vh;
@@ -55,7 +53,6 @@ main #first-section .content{
 }
 main #first-section .main-image img{
     width: 30vw;
-    filter: drop-shadow(0px 0px 30px #ffffff2f);
     margin-left: 10%;
 }
 main #first-section .other-side .text p{
@@ -127,6 +124,64 @@ main #second-section .aside p{
 }
 main #second-section .other-side img{
     width: 100%;
+}
+
+main #third-section{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+main #third-section .asset{
+    position: relative;
+}
+main #third-section .asset img{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    opacity: .5;
+}
+main #third-section .asset h1{
+    font-size: 4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgba(248, 248, 248, 0.774);
+    text-shadow: 0 0 5px #ffffff7c, 0 0 10px #ffffff4d;
+}
+main #third-section .scroll-footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -1% 5%;
+    padding: 10px;
+}
+main #third-section .scroll-footer img{
+    width: 100px;
+    animation: swipe-animation 1s infinite alternate;
+}
+
+main #fourth-section{
+    width: 100%;
+    height: 100vh;
+    padding: 5%;
+}
+main #fourth-section .gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+main #fourth-section .gallery img{
+    width: 70%;
+    height: auto;
+    display: block;
 }
 
 @keyframes swipe-animation {
