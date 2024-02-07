@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio - Web Developer</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header>
@@ -14,9 +15,9 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Projetos</a></li>
+                <li><a href="#first-section">Home</a></li>
+                <li><a href="#second-section">Sobre</a></li>
+                <li><a href="#third-section">Projetos</a></li>
             </ul>
         </nav>
     </header>
@@ -24,33 +25,33 @@
     <main>
         <section id="first-section">
             <div class="content">
-                <div class="main-image">
+                <div class="main-image" data-aos="fade-right">
                     <img src="assets/Main Image.png" alt="IA Image">
                 </div>
-                <div class="other-side">
+                <div class="other-side" >
                     <div class="text">
-                        <p>Opa! <br> Meu nome é Anyel.</p>
+                        <p data-aos="fade-right" data-aos-delay="800" >Opa! <br> Meu nome é Anyel.</p>
                     </div>
                     <div class="buttons">
-                            <div class="button">
-                            <a class="button" href="#">Perfil do GitHub  <img src="assets/seta.png" alt="Seta direita"></a>
+                            <div data-aos="fade-right" data-aos-delay="900" class="button">
+                            <a class="button" href="https://github.com/nyelkk" target="_blank">Perfil do GitHub  <img src="assets/seta.png" alt="Seta direita"></a>
                             </div>
-                            <div class="button">
-                                <a class="button" target="_blank" href="#" >Perfil do Behance  <img src="assets/seta.png" alt="Seta direita"></a>
+                            <div data-aos="fade-right" data-aos-delay="1200" class="button">
+                                <a class="button" target="_blank" href="https://www.behance.net/lima_designn?tracking_source=search_users|carlos%20anyel">Perfil do Behance  <img src="assets/seta.png" alt="Seta direita"></a>
                             </div>
-                        <div class="paragrapher">
+                        <div class="paragrapher" class="other-side" data-aos="fade-right" data-aos-delay="1500">
                             <p>Ao clicar, você será redirecionado para outras plataformas. Recomendamos salvar seus arquivos ou abas antes de prosseguir para evitar perdas não desejadas.</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="scroll-footer">
+            <div class="scroll-footer" class="other-side" data-aos="zoom-in" data-aos-delay="1000">
                 <img src="assets/Swipe Down.png" alt="Swipe Down">
             </div>
         </section>
         
         <section id="second-section">
-            <div class="aside">
+            <div class="aside" data-aos="fade-right" data-aos-delay="1000" >
                 <div class="console">
                     <img src="assets/console.png" alt="saudações">
                 </div>
@@ -58,7 +59,7 @@
                     <p>Meu nome é Carlos Anyel, mas pode me chamar de Anyel. Estou com 17 anos e atualmente estou no segundo ano do curso de Desenvolvimento de Sistemas no Instituto Federal de Alagoas. <br> <br> Há menos de um ano, entrei nessa ideia da programação web, e desde então tenho explorado com muito gosto a parte do desenvolvimento front-end. Recentemente, comecei a ver alguns frameworks focados na parte do front-end mesmo, e é algo que quero muito adicionar na minha caixa de ferramentas mais pra frente. <br> <br> No momento, minhas principais armas são HTML, CSS e JavaScript, as ferramentas que dão vida às minhas ideias. Sei que comecei agora, mas tenho muito apresso pela tecnologia e pretendo evoluir rápido. <br><br> O design também sempre foi algo que me atraiu, e esse dote meu se reflete nos meus projetos. Acredito que a combinação de estética e funcionalidade é essencial para criar experiências na Web.</p>
                 </div>
             </div>
-            <div class="other-side">
+            <div class="other-side" data-aos="fade-right" data-aos-delay="3500" >
                 <img src="assets/Me.png" alt="">
             </div>
         </section>
@@ -66,7 +67,7 @@
         <section id="third-section">
             <div class="asset">
                 <img src="assets/Frame 3.png" alt="background">
-                <h1>MEUS PROJETOS</h1>
+                <h1 data-aos="zoom-in" data-aos-delay="300">MEUS PROJETOS</h1>
             </div>
             <div class="scroll-footer">
                 <img src="assets/Swipe Down.png" alt="Swipe Down">
@@ -75,23 +76,38 @@
 
         <section id="fourth-section">
             <div class="title">
-                <h1>WEBSITES</h1>
+                <img src="assets/web-title.png" alt="websites">
             </div>
-            <div class="gallery">
-                <a href="#">
-                    <img src="assets/gallery/Letterboxd - Home 1.png" alt=""></a>
-                <a href="">
-                    <img src="assets/gallery/Lima Tec 1.png" alt="">
-                </a>
-                <br>
-                <a href="">
-                    <img src="assets/gallery/Lina - AI 1.png" alt="">
-                </a>
-                <a href="">
-                    <img src="assets/gallery/Pet Life 1.png" alt="">
-                </a>
+            <div id="content">
+                <div class="gallery" >
+                    <a href="https://letterboxd-six.vercel.app/" data-text="Letterboxd - Remake" target="_blank">
+                        <img src="assets/gallery/Letterboxd - Home 1.png" alt=""></a>
+                    <a href="https://liminha-cursos.vercel.app" data-text="Lima Tec" target="_blank">
+                        <img src="assets/gallery/Lima Tec 1.png" alt="">
+                    </a>
+                </div>
+                <div class="gallery">
+                    <a href="https://petlife-petshop.vercel.app" data-text="Petlife - Petshop" target="_blank">
+                        <img src="assets/gallery/Pet Life 1.png" alt="">
+                        
+                    </a>
+                    <a href="https://lina-ai.vercel.app" data-text="Lina - IA" target="_blank">
+                        <img src="assets/gallery/Lina - AI 1.png" alt="">
+                    </a>
+                </div>
             </div>
+
         </section>
     </main>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+
+    AOS.init({
+    duration: 1000,
+});
+    </script>
+
 </body>
 </html>
