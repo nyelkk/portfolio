@@ -172,16 +172,23 @@ main #fourth-section{
     width: 100%;
     height: 100vh;
     padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 main #fourth-section .gallery{
     display: flex;
-    flex-wrap: wrap;
     gap: 20px;
 }
+main #fourth-section .gallery a {
+    flex: 2 2;
+    display: inline;
+    width: 100%;
+    height: 100%;
+}
 main #fourth-section .gallery img{
-    width: 70%;
+    width: 50%;
     height: auto;
-    display: block;
 }
 
 @keyframes swipe-animation {
