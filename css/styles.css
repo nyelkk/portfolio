@@ -53,6 +53,10 @@ main #first-section{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.946), rgba(0, 0, 0, 0.829)), url(https://64.media.tumblr.com/75652226642f77375b151055ef501fd8/e2ec20ba805172f8-46/s500x750/f1a186adc31e6ea441119d1b241453d60ef2d3b1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 main #first-section .content{
     display: flex;
@@ -199,6 +203,10 @@ main #fourth-section #content{
 main #fourth-section #content .card:hover{
     transform: scale(1.03);
     cursor: pointer;
+}
+main #fourth-section #content:has(.card:hover) .card:not(:hover){
+    scale: .99;
+    opacity: .7;
 }
 main #fourth-section #content .card p{
     color: rgb(0, 0, 46);
