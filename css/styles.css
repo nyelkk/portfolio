@@ -39,6 +39,7 @@ header nav ul li {
     transition: .5s;
 }
 header nav ul li a {
+    color: rgb(250, 250, 250);
     font-size: .7vw;
     text-decoration: none; 
 }
@@ -47,7 +48,6 @@ header nav ul li:hover{
 }
 main #first-section{
     width: 100%;
-    height: 90vh;
     padding: 5%;
     display: flex;
     flex-direction: column;
@@ -120,7 +120,6 @@ main #first-section .scroll-footer img{
 
 main #second-section{
     width: 100%;
-    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -139,7 +138,6 @@ main #second-section .other-side img{
 
 main #third-section{
     width: 100%;
-    height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -154,7 +152,7 @@ main #third-section .asset img{
     margin: 0 auto;
     width: 80%;
     height: auto;
-    opacity: .5;
+    opacity: .7;
 }
 main #third-section .asset h1{
     font-size: 4rem;
@@ -181,7 +179,6 @@ main #third-section .scroll-footer img{
 
 main #fourth-section{
     width: 100%;
-    height: 100vh;
     padding: 10%;
     display: flex;
     flex-direction: column;
@@ -191,42 +188,23 @@ main #fourth-section .title img{
     margin-left: -2%;
     width: 20vw;
 }
-main #fourth-section .gallery{
+
+main #fourth-section #content{
     display: flex;
-    gap: 40px;
-}
-main #fourth-section .gallery a {
-    position: relative;
-    width: 30vw;
-    height: 100%;
-    margin: 30px 30px 30px 0;
-    overflow: hidden;
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    border-radius: 20px;
-}
-main #fourth-section .gallery img{
-    width: 100%;
-    height: auto;
+    flex-wrap: wrap;
+    gap: 50px;
+}main #fourth-section #content .card{
     transition: .5s;
 }
-main #fourth-section .gallery a::before {
-    content: attr(data-text);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    transition: opacity 0.5s;
-    text-align: center;
-    color: rgb(255, 255, 255);
+main #fourth-section #content .card:hover{
+    transform: scale(1.03);
+    cursor: pointer;
 }
-main #fourth-section .gallery a:hover::before {
-    opacity: 1;
+main #fourth-section #content .card p{
+    color: rgb(0, 0, 46);
 }
-main #fourth-section .gallery img:hover{
-    transform: scale(1.1);
-    opacity: .5;
+main #fourth-section #content .card a{
+    padding: 3%;
 }
 
 

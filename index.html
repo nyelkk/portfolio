@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio - Web Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header>
@@ -45,7 +46,7 @@
                     </div>
                 </div>
             </div>
-            <div class="scroll-footer" class="other-side" data-aos="zoom-in" data-aos-delay="1000">
+            <div class="scroll-footer" class="other-side" data-aos="zoom-in" data-aos-delay="600">
                 <img src="assets/Swipe Down.png" alt="Swipe Down">
             </div>
         </section>
@@ -79,24 +80,48 @@
                 <img src="assets/web-title.png" alt="websites">
             </div>
             <div id="content">
-                <div class="gallery" >
-                    <a href="https://letterboxd-six.vercel.app/" data-text="Letterboxd - Remake" target="_blank">
-                        <img src="assets/gallery/Letterboxd - Home 1.png" alt=""></a>
-                    <a href="https://liminha-cursos.vercel.app" data-text="Lima Tec" target="_blank">
-                        <img src="assets/gallery/Lima Tec 1.png" alt="">
-                    </a>
+                <div class="card" data-aos="fade-right" data-aos-delay="100"  style="width: 18rem;">
+                    <img src="assets/gallery/Letterboxd - Home 1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Letterboxd - Remake</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="https://letterboxd-six.vercel.app/" target="_blank" class="btn btn-primary">Acessar<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-square-fill" viewBox="0 0 16 16">
+                            <path d="M14 0a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zM5.904 10.803 10 6.707v2.768a.5.5 0 0 0 1 0V5.5a.5.5 0 0 0-.5-.5H6.525a.5.5 0 1 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 .707.707"/>
+                        </svg></a>
+                    </div>
                 </div>
-                <div class="gallery">
-                    <a href="https://petlife-petshop.vercel.app" data-text="Petlife - Petshop" target="_blank">
-                        <img src="assets/gallery/Pet Life 1.png" alt="">
-                        
-                    </a>
-                    <a href="https://lina-ai.vercel.app" data-text="Lina - IA" target="_blank">
-                        <img src="assets/gallery/Lina - AI 1.png" alt="">
-                    </a>
+                <div class="card" data-aos="fade-right" data-aos-delay="200"  style="width: 18rem;">
+                    <img src="assets/gallery/Lima Tec 1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lima Tec</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="https://liminha-cursos.vercel.app" target="_blank" class="btn btn-primary">Acessar<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-square-fill" viewBox="0 0 16 16">
+                            <path d="M14 0a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zM5.904 10.803 10 6.707v2.768a.5.5 0 0 0 1 0V5.5a.5.5 0 0 0-.5-.5H6.525a.5.5 0 1 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 .707.707"/>
+                        </svg></a>
+                    </div>
+                </div>
+                <div class="card" data-aos="fade-right" data-aos-delay="400"  style="width: 18rem;">
+                    <img src="assets/gallery/Lina - AI 1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lina - IA</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="https://lina-ai.vercel.app" target="_blank" class="btn btn-primary">Acessar<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-square-fill" viewBox="0 0 16 16">
+                            <path d="M14 0a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zM5.904 10.803 10 6.707v2.768a.5.5 0 0 0 1 0V5.5a.5.5 0 0 0-.5-.5H6.525a.5.5 0 1 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 .707.707"/>
+                        </svg></a>
+                    </div>
+                </div>
+                <div class="card" data-aos="fade-right" data-aos-delay="600" style="width: 18rem;">
+                    <img src="assets/gallery/Pet Life 1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Petlife - Petshop</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="https://petlife-petshop.vercel.app" target="_blank" class="btn btn-primary">Acessar<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-square-fill" viewBox="0 0 16 16">
+                            <path d="M14 0a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zM5.904 10.803 10 6.707v2.768a.5.5 0 0 0 1 0V5.5a.5.5 0 0 0-.5-.5H6.525a.5.5 0 1 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 .707.707"/>
+                        </svg></a>
+                    </div>
                 </div>
             </div>
-
+            
         </section>
     </main>
 
