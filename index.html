@@ -52,15 +52,15 @@
         </section>
         
         <section id="second-section">
-            <div class="aside" data-aos="fade-right" data-aos-delay="1000" >
+            <div class="aside" data-aos="fade-right" data-aos-delay="3500" >
                 <div class="console">
                     <img src="assets/console.png" alt="saudações">
                 </div>
                 <div class="paragrapher">
-                    <p>Meu nome é Carlos Anyel, mas pode me chamar de Anyel. Estou com 17 anos e atualmente estou no segundo ano do curso de Desenvolvimento de Sistemas no Instituto Federal de Alagoas. <br> <br> Há menos de um ano, entrei nessa ideia da programação web, e desde então tenho explorado com muito gosto a parte do desenvolvimento front-end. Recentemente, comecei a ver alguns frameworks focados na parte do front-end mesmo, e é algo que quero muito adicionar na minha caixa de ferramentas mais pra frente. <br> <br> No momento, minhas principais armas são HTML, CSS e JavaScript, as ferramentas que dão vida às minhas ideias. Sei que comecei agora, mas tenho muito apresso pela tecnologia e pretendo evoluir rápido. <br><br> O design também sempre foi algo que me atraiu, e esse dote meu se reflete nos meus projetos. Acredito que a combinação de estética e funcionalidade é essencial para criar experiências na Web.</p>
+                    <p data-aos="fade-right" data-aos-delay="3200">Meu nome é Carlos Anyel, mas pode me chamar de Anyel. Estou com 17 anos e atualmente estou no segundo ano do curso de Desenvolvimento de Sistemas no Instituto Federal de Alagoas. <br> <br> Há menos de um ano, entrei nessa ideia da programação web, e desde então tenho explorado com muito gosto a parte do desenvolvimento front-end. Recentemente, comecei a ver alguns frameworks focados na parte do front-end mesmo, e é algo que quero muito adicionar na minha caixa de ferramentas mais pra frente. <br> <br> No momento, minhas principais armas são HTML, CSS e JavaScript, as ferramentas que dão vida às minhas ideias. Sei que comecei agora, mas tenho muito apresso pela tecnologia e pretendo evoluir rápido. <br><br> O design também sempre foi algo que me atraiu, e esse dote meu se reflete nos meus projetos. Acredito que a combinação de estética e funcionalidade é essencial para criar experiências na Web.</p>
                 </div>
             </div>
-            <div class="other-side" data-aos="fade-right" data-aos-delay="3500" >
+            <div class="other-side" data-aos="fade-left" data-aos-delay="500" >
                 <img src="assets/Me.png" alt="">
             </div>
         </section>
@@ -123,6 +123,60 @@
             </div>
             
         </section>
+        <section id="fifth-section">
+            <div data-aos="zoom-in" data-aos-delay="100"  class="title">
+                <img src="assets/design.png" >
+            </div>
+            <div class="content">
+                <div class="slider-container" data-aos="fade-right" data-aos-delay="300">
+                    <div class="slider">
+                        <div class="slides">
+                            <img src="assets/swiper/swiper-01.png" alt="Image 1">
+                            <img src="assets/swiper/swiper-02.jpg" alt="Image 2">
+                            <img src="assets/swiper/swiper-03.jpg" alt="Image 3">
+                            <img src="assets/swiper/swiper-04.png" alt="Image 4">
+                            <img src="assets/swiper/swiper-05.png" alt="Image 5">
+                            <img src="assets/swiper/swiper-06.png" alt="Image 3">
+                            <img src="assets/swiper/swiper-07.png" alt="Image 4">
+                            <img src="assets/swiper/swiper-08.png" alt="Image 5">
+                        </div>
+                        <button class="prev" onclick="prevSlide1()"><</button>
+                        <button class="next" onclick="nextSlide1()">></button>
+                    </div>
+                </div>
+                <div class="text" data-aos="fade-right" data-aos-delay="600">
+                    <h1>
+                        Social Media
+                    </h1>
+                    <p>
+        Descubra como elevar a sua presença online para o próximo nível com uma abordagem única e criativa às redes sociais. Dos visuais deslumbrantes da fotografia e design gráfico à construção de identidades visuais marcantes e estratégias de mídia social eficazes, estou aqui para ajudá-lo a contar a sua história de uma maneira cativante e autêntica. Juntos, vamos criar uma presença online que não apenas se destaque, mas também se conecte verdadeiramente com o seu público-alvo.
+                    </p>
+                </div>
+            </div>
+            <br><br>
+            <div class="content">
+                <div class="slider-container" data-aos="fade-right" data-aos-delay="300">
+                    <div class="slider">
+                        <div class="slides">
+                            <img src="assets/jerseys/jersey-02.png" alt="Image 2">
+                            <img src="assets/jerseys/jersey-03.png" alt="Image 3">
+                            <img src="assets/jerseys/jersey-04.png" alt="Image 4">
+                            <img src="assets/jerseys/jersey-05.png" alt="Image 5">
+                        </div>
+                        <button class="prev" onclick="prevSlide2()"><</button>
+                        <button class="next" onclick="nextSlide2()">></button>
+                    </div>
+                </div>
+                <div class="text" data-aos="fade-right" data-aos-delay="600">
+                    <h1>
+                        Jerseys
+                    </h1>
+                    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae eaque illum ullam, eligendi excepturi, perspiciatis obcaecati culpa provident, hic quo unde omnis veritatis libero autem necessitatibus explicabo vel eveniet esse!
+                    </p>
+                </div>
+            </div>
+        </section>
     </main>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -131,8 +185,9 @@
 
     AOS.init({
     duration: 1000,
-});
+    });
     </script>
+    <script src="js/script.js"></script>
 
 </body>
 </html>

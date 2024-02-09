@@ -123,6 +123,7 @@ main #first-section .scroll-footer img{
 }
 
 main #second-section{
+    overflow-x: hidden;
     width: 100%;
     display: flex;
     align-items: center;
@@ -135,9 +136,10 @@ main #second-section .aside img{
 }
 main #second-section .aside p{
     max-width: 80%;
+    font-size: 1vw;
 }
 main #second-section .other-side img{
-    width: 100%;
+    width: 130%;
 }
 
 main #third-section{
@@ -198,6 +200,8 @@ main #fourth-section #content{
     flex-wrap: wrap;
     gap: 50px;
 }main #fourth-section #content .card{
+    background-color: rgba(1, 1, 1, 1);
+    color: #f3f3f3;
     transition: .5s;
 }
 main #fourth-section #content .card:hover{
@@ -209,16 +213,79 @@ main #fourth-section #content:has(.card:hover) .card:not(:hover){
     opacity: .7;
 }
 main #fourth-section #content .card p{
-    color: rgb(0, 0, 46);
+    color: #f3f3f3bd;
 }
 main #fourth-section #content .card a{
     padding: 3%;
+    background-color: #111414;
+    border: none;
+    transition: .5s;
+}
+main #fourth-section #content .card a:hover{
+    transform: translateY(-3px);
+    opacity: .1;
 }
 
-
-
-
-
+main #fifth-section{
+    width: 100%;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main #fifth-section .title img{
+    margin-left: -2%;
+    width: 20vw;
+}
+main #fifth-section .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+main #fifth-section .slider-container{
+    position: relative;
+    width: 30%;
+    overflow: hidden;
+}
+main #fifth-section .slider{
+    position: relative;
+    width: 100%;
+}
+main #fifth-section .slides{
+    display: flex;
+    transition: transform 0.5s ease;
+}
+main #fifth-section .slides img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+}
+main #fifth-section .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+main #fifth-section .prev{
+    left: 0;
+}
+main #fifth-section .next {
+    right: 0;
+}
+main #fifth-section .text{
+    width: 50%;
+}
+main #fifth-section .text h1{
+    font-size: 2rem;
+    color: rgba(248, 248, 248, 0.938);
+    text-shadow: 0 0 5px #ffffff62, 0 0 10px #ffffff4d;
+}
 
 
 
