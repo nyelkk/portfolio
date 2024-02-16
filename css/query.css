@@ -1,5 +1,88 @@
-@media (max-width: 600px) {
-    .facet_sidebar {
+@media only screen and (max-width: 600px) {
+    main #first-section .content{
+        flex-direction: column;
+        padding: 10% 5% 5% 5%;
+    }
+    main #first-section .content .main-image img{
         display: none;
     }
+    main #first-section .other-side .text p{
+        font-size: 2rem;
+    }
+    main #first-section .other-side .buttons .button a{
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: .7rem;
+    }
+    main #first-section .other-side .paragrapher p{
+        max-width: 100%;
+        font-size: .6em;
+    }
+    main #first-section .scroll-footer img{
+        width: 70px;
+    }
+
+    main #second-section{
+        flex-direction: column;
+        text-align: center;
+    }
+    main #second-section .aside img{
+        margin-left: 0;
+        width: 80vw;
+    }
+    main #second-section .aside p{
+        text-align: center;
+        font-size: .8rem;
+    }
+    main #second-section .aside p{
+        font-size: .7rem;
+        max-width: 100%;
+    }
+    main #second-section .paragrapher{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main #second-section .other-side img{
+        display: none;
+    }
+    main #third-section .asset h1{
+        font-size: 1.4rem;
+    }
+    main #third-section .asset img{
+        width: 100%;
+    }
+    main #third-section .scroll-footer img{
+        width: 80px;
+    }
+    .card-body{
+        width: 70%;
+    }
+    .card-body p{
+        font-size: .6rem;
+    }
+    main #fourth-section .title img{
+        width: 60vw;
+        margin-left: 10%;
+    }
+    main #fifth-section .title img{
+        width: 40vw;
+    }
+    main #fifth-section .content .flex{
+        flex-direction: column-reverse;
+    }
+    main #fifth-section .content .flex .slide-text{
+        width: 100%;
+    }
+    main #fifth-section .content .flex .slide-text h1{
+        font-size: 1.5rem;
+    }
+    main #fifth-section .content .flex .slide-text p{
+        font-size: .8rem;
+    }
+    .slider{
+        width: 90%;
+        margin: 5vh 0 5vh 0;
+    }
+    
 }

@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/query.css">
 </head>
 <body>
     <header>
@@ -128,57 +129,55 @@
                 <img src="assets/design.png" >
             </div>
             <div class="content">
-                <div class="slider-container" data-aos="fade-right" data-aos-delay="300">
-                    <div class="slider">
+                <div class="flex">
+                    <div class="slider" id="designSlider">
                         <div class="slides">
-                            <img src="assets/swiper/swiper-01.png" alt="Image 1">
-                            <img src="assets/swiper/swiper-02.jpg" alt="Image 2">
-                            <img src="assets/swiper/swiper-03.jpg" alt="Image 3">
-                            <img src="assets/swiper/swiper-04.png" alt="Image 4">
-                            <img src="assets/swiper/swiper-05.png" alt="Image 5">
-                            <img src="assets/swiper/swiper-06.png" alt="Image 3">
-                            <img src="assets/swiper/swiper-07.png" alt="Image 4">
-                            <img src="assets/swiper/swiper-08.png" alt="Image 5">
+                            <div class="slide"><img src="assets/swiper/swiper-01.png" alt="Design 1"></div>
+                            <div class="slide"><img src="assets/swiper/swiper-02.jpg" alt="Design 2"></div>
+                            <div class="slide"><img src="assets/swiper/swiper-03.jpg" alt="Design 3"></div>
+                            <div class="slide"><img src="assets/swiper/swiper-04.png" alt="Design 3"></div>
+                            <div class="slide"><img src="assets/swiper/swiper-05.png" alt="Design 3"></div>
+                            <div class="slide"><img src="assets/swiper/swiper-06.png" alt="Design 3"></div>
+                            <div class="slide"><img src="assets/swiper/swiper-07.png" alt="Design 3"></div>
+                            <div class="slide"><img src="assets/swiper/swiper-08.png" alt="Design 3"></div>
                         </div>
-                        <button class="prev" onclick="prevSlide1()"><</button>
-                        <button class="next" onclick="nextSlide1()">></button>
+                        <div class="controls">
+                            <button class="control prev" onclick="prevSlide('designSlider')">❮</button>
+                            <button class="control next" onclick="nextSlide('designSlider')">❯</button>
+                        </div>
+                    </div>
+                    
+                    <div class="slide-text">
+                        <h1>Social Media</h1>
+                        <p>Com layouts e imagens cativantes, nossos trabalhos são feitos sob medida para destacar sua presença nas redes sociais. Não subestime o poder do social media - é a chave para se conectar com seu público e construir uma comunidade online engajada. Deixe-nos ajudá-lo a alcançar seus objetivos de marketing digital com nossas soluções de design criativas e eficazes!"</p>
                     </div>
                 </div>
-                <div class="text" data-aos="fade-right" data-aos-delay="600">
-                    <h1>
-                        Social Media
-                    </h1>
-                    <p>
-        Descubra como elevar a sua presença online para o próximo nível com uma abordagem única e criativa às redes sociais. Dos visuais deslumbrantes da fotografia e design gráfico à construção de identidades visuais marcantes e estratégias de mídia social eficazes, estou aqui para ajudá-lo a contar a sua história de uma maneira cativante e autêntica. Juntos, vamos criar uma presença online que não apenas se destaque, mas também se conecte verdadeiramente com o seu público-alvo.
-                    </p>
-                </div>
-            </div>
-            <br><br>
-            <div class="content">
-                <div class="slider-container" data-aos="fade-right" data-aos-delay="300">
-                    <div class="slider">
+                <div class="flex">
+                    <div class="slider" id="projectsSlider">
                         <div class="slides">
-                            <img src="assets/jerseys/jersey-02.png" alt="Image 2">
-                            <img src="assets/jerseys/jersey-03.png" alt="Image 3">
-                            <img src="assets/jerseys/jersey-04.png" alt="Image 4">
-                            <img src="assets/jerseys/jersey-05.png" alt="Image 5">
+                            <div class="slide"><img src="assets/jerseys/jersey-03.png" alt="Project 1"></div>
+                            <div class="slide"><img src="assets/jerseys/jersey-02.png" alt="Project 2"></div>
+                            <div class="slide"><img src="assets/jerseys/jersey-01.png" alt="Project 3"></div>
+                            <div class="slide"><img src="assets/jerseys/jersey-04.png" alt="Project 3"></div>
+                            <div class="slide"><img src="assets/jerseys/jersey-05.png" alt="Project 3"></div>
                         </div>
-                        <button class="prev" onclick="prevSlide2()"><</button>
-                        <button class="next" onclick="nextSlide2()">></button>
+                        <div class="controls">
+                            <button class="control prev" onclick="prevSlide('projectsSlider')">❮</button>
+                            <button class="control next" onclick="nextSlide('projectsSlider')">❯</button>
+                        </div>
                     </div>
-                </div>
-                <div class="text" data-aos="fade-right" data-aos-delay="600">
-                    <h1>
-                        Jerseys
-                    </h1>
-                    <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae eaque illum ullam, eligendi excepturi, perspiciatis obcaecati culpa provident, hic quo unde omnis veritatis libero autem necessitatibus explicabo vel eveniet esse!
-                    </p>
+                    
+                    <div class="slide-text">
+                        <h1>Jerseys</h1>
+                        <p>Cada jersey é uma obra-prima de estilo e conforto, feito para destacar sua personalidade e seu estilo único. Dos cortes clássicos aos mais modernos, nossos designs são criados para se adaptar ao seu dia a dia com muito estilo. Seja para um evento especial ou para o dia a dia, nossos jerseys são a escolha perfeita para quem busca qualidade e design diferenciado. Renove seu guarda-roupa com nossos jerseys e se destaque com muito estilo!"</p>
+                    </div>
                 </div>
             </div>
         </section>
+        <footer>
+            <p>Desenvolvido por Carlos Anyel © 2024</p>
+        </footer>
     </main>
-
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
     AOS.init();
