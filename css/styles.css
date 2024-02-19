@@ -34,7 +34,8 @@ header nav ul {
     margin-top: 6%;
 }
 header img{
-    width: 10%;
+    width: 15%;
+    margin-left: 25%;
 }
 header nav ul li {
     margin: 1vh;
@@ -298,6 +299,7 @@ footer{
     justify-content: center;
 }
 footer p{
+    font-size: 1rem;
     opacity: .2;
     padding: 10px;
 }
