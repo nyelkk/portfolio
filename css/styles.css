@@ -33,6 +33,9 @@ header nav ul {
     display: flex;
     margin-top: 6%;
 }
+header img{
+    width: 10%;
+}
 header nav ul li {
     margin: 1vh;
     transition: .5s;
@@ -121,6 +124,10 @@ main #first-section .scroll-footer img{
 }
 
 main #second-section{
+    background-image: url(../assets/background/lines.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow-x: hidden;
     width: 100%;
     display: flex;
@@ -222,7 +229,7 @@ main #fourth-section #content .card a{
 }
 main #fourth-section #content .card a:hover{
     transform: translateY(-3px);
-    opacity: .1;
+    opacity: .5;
 }
 
 main #fifth-section{
