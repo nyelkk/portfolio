@@ -56,7 +56,7 @@ main #first-section{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.946), rgba(0, 0, 0, 0.829)), url(https://64.media.tumblr.com/75652226642f77375b151055ef501fd8/e2ec20ba805172f8-46/s500x750/f1a186adc31e6ea441119d1b241453d60ef2d3b1.gif);
+    background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.856)), url(../assets/background/green.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -315,9 +315,6 @@ body::-webkit-scrollbar-track {
 }
 body::-webkit-scrollbar-thumb {
     background-color: rgb(246, 249, 255);
-    -webkit-box-shadow:0px 0px 105px 45px rgba(45, 255, 125, 0.9);
-    -moz-box-shadow: 0px 0px 105px 45px rgba(45, 255, 125, 0.9);
-    box-shadow: 0px 0px 105px 45px rgba(45, 255, 125, 0.9);
     border-radius: 100px;
 }
 
